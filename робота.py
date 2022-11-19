@@ -351,25 +351,6 @@ letters_spis_1 = {
         '''
 }
 
-'''def get_key(letters_spis_1, value):
-    for k, v in letters_spis_1.items():
-        if v == value:
-            return k'''
-
-#for i in text: #i in letters_with_cage.items():
-    #for k in letters_with_cage #text:
-        #if k == letters_with_cage[i]:
-           # print(i)
-
-
-'''a = input('1 or 2? ')
-if a == 1 or a=='1':
-    for i in text:
-        print(letters_1.get(i))
-elif a ==2 or a=='2':
-    for i in text:
-        print(letters_2.get(i))'''
-
-for i in letters_list_text:
-    print(letters_1.get(i))
+for bukva_i in letters_list_text:
+    print(letters_spis_1.get(bukva_i))
 
